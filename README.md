@@ -1,7 +1,13 @@
 
+
+
 this codebase is demo for the open source Vue js layers code of TRYscript 
+
 backend code with sqlite would need major adjustment and customization per local repo 
+
 major modifications are still needed 
+
+
 ----------------------------------------------------------------------------------------------
 
 # my-vue-app
