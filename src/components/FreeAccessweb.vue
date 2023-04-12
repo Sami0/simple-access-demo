@@ -8,7 +8,7 @@
 </div>
 
 
-<div id="LogCapacity" v-if="points.length < 10">
+<div id="LogCapacity" v-if="points.length < 50">
 
       <b-col lg="6">
         <b-card :title="(model.id ? 'Edit Point ID#' + model.id : 'New Point')">
@@ -126,13 +126,13 @@
 
 
     <b-alert :show="loading" variant="info">data logs are Loading...</b-alert>
-      <div v-if="points.length == 10 ">
+      <div v-if="points.length == 50 ">
    <alert > <p  class="dangerALert"> you've reached maxmium capacity </p></alert> 
  <div id="logStatus">LogStatus :free access web workwave Visual are set to contain 10 log points, upgrade for more capacity </div>
 </div>
-    <div v-if="points.length > 10 ">
+    <div v-if="points.length > 50 ">
    <alert > <p  class="dangerALert"> you've reached maxmium capacity </p></alert> 
- <div id="logStatus">LogStatus :free access web workwave Visual are set to contain 10 log points, upgrade for more capacity   </div>
+ <div id="logStatus">LogStatus :free access workwave Visuals are set to contain 50 log points./div>
 </div>
 
 <div  v-if="points.length < 1  ">
@@ -144,10 +144,9 @@
 </div>
 
 
-
-
-
-
+<a style="color:yellow;" href="http://localhost:8080/#/simple">
+<button><svg  width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"/></svg> 
+simple view- exit time</button></a>
 
 
     <b-row>
