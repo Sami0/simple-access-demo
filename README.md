@@ -7,7 +7,7 @@ you need to run sqlite db + server
 
 ``` bash
 node ./src/server 
-
+```
 
 this copy excludes the engine 
 
